@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;p115/src/p115.c&apos; to &apos;geo2json.c&apos;" description="Rename resource &apos;p115.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/p115.c" name="geo2json.c" stamp="1458194508535" updateReferences="true"/>
+</session>

@@ -1,0 +1,59 @@
+11:16:09 **** Build of configuration Debug for project p267-p284 ****
+make all 
+make: Nothing to be done for 'all'.
+11:16:36 **** Incremental Build of configuration Debug for project p267-p284 ****
+make all 
+make: Nothing to be done for 'all'.
+11:32:42 **** Incremental Build of configuration Debug for project p267-p284 ****
+make all 
+Building file: ../src/p284.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/p284.d" -MT"src/p284.d" -o "src/p284.o" "../src/p284.c"
+Finished building: ../src/p284.c
+ 
+Building target: p267-p284.exe
+Invoking: Cygwin C Linker
+gcc  -o "p267-p284.exe"  ./src/p284.o   
+Finished building target: p267-p284.exe
+ 
+11:41:09 **** Incremental Build of configuration Debug for project p267-p284 ****
+make all 
+Building file: ../src/p284.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/p284.d" -MT"src/p284.d" -o "src/p284.o" "../src/p284.c"
+Finished building: ../src/p284.c
+ 
+Building target: p267-p284.exe
+Invoking: Cygwin C Linker
+gcc  -o "p267-p284.exe"  ./src/p284.o   
+Finished building target: p267-p284.exe
+ 
+11:44:37 **** Incremental Build of configuration Debug for project p267-p284 ****
+make all 
+Building file: ../src/p284.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/p284.d" -MT"src/p284.d" -o "src/p284.o" "../src/p284.c"
+Finished building: ../src/p284.c
+ 
+Building target: p267-p284.exe
+Invoking: Cygwin C Linker
+gcc  -o "p267-p284.exe"  ./src/p284.o   
+Finished building target: p267-p284.exe
+ 
+11:48:11 **** Incremental Build of configuration Debug for project p267-p284 ****
+make all 
+Building file: ../src/p284.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/p284.d" -MT"src/p284.d" -o "src/p284.o" "../src/p284.c"
+../src/p284.c: In function 'create':
+../src/p284.c:52:3: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long unsigned int' [-Wformat=]
+   printf("...size is %d\n",sizeof(passin_name) );
+   ^
+../src/p284.c:52:3: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long unsigned int' [-Wformat=]
+Finished building: ../src/p284.c
+ 
+Building target: p267-p284.exe
+Invoking: Cygwin C Linker
+gcc  -o "p267-p284.exe"  ./src/p284.o   
+Finished building target: p267-p284.exe
+ 

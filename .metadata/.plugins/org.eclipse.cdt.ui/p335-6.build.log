@@ -1,0 +1,15 @@
+18:24:03 **** Build of configuration Debug for project p335-6 ****
+make all 
+Building file: ../src/p335.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/p335.d" -MT"src/p335.d" -o "src/p335.o" "../src/p335.c"
+Finished building: ../src/p335.c
+ 
+Building target: p335-6
+Invoking: MacOS X C Linker
+gcc  -o "p335-6"  ./src/p335.o   
+Finished building target: p335-6
+ 
+
+18:24:04 Build Finished (took 842ms)
+

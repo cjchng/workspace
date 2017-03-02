@@ -1,0 +1,15 @@
+18:23:56 **** Build of configuration Debug for project p242-2 ****
+make all 
+Building file: ../src/p242-2.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/p242-2.d" -MT"src/p242-2.d" -o "src/p242-2.o" "../src/p242-2.c"
+Finished building: ../src/p242-2.c
+ 
+Building target: p242-2.exe
+Invoking: Cygwin C Linker
+gcc  -o "p242-2.exe"  ./src/p242-2.o   
+Finished building target: p242-2.exe
+ 
+
+18:23:56 Build Finished (took 649ms)
+

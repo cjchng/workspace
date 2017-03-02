@@ -1,0 +1,7 @@
+1455207825234	Rename resource 'p366_hfcal'
+1455207970552	Rename resource 'hfcal'
+1455208033846	Delete resource 'p366/Debug/libp366_hfcal.a'
+1455208131056	Delete resource 'hfcal/src/elliptical.c'
+1455208262412	Delete resource 'hfcal/Debug'
+1455208637105	Delete resource 'hfcal/Debug'
+1455208782395	Delete resource 'libhfcal.a'

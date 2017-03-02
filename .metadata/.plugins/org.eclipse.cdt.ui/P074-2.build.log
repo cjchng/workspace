@@ -1,0 +1,14 @@
+18:23:43 **** Build of configuration Debug for project P074-2 ****
+make all 
+Building file: ../src/P074-2.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/P074-2.d" -MT"src/P074-2.d" -o "src/P074-2.o" "../src/P074-2.c"
+../src/P074-2.c: In function 'sub2':
+../src/P074-2.c:15:1: error: parameter name omitted
+ void sub2(char *) {}
+ ^
+make: *** [src/P074-2.o] Error 1
+src/subdir.mk:18: recipe for target 'src/P074-2.o' failed
+
+18:23:43 Build Finished (took 293ms)
+

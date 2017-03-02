@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;p347&apos; to &apos;p347-9&apos;" description="Rename resource &apos;p347&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/p347" name="p347-9" stamp="1463647806963" updateReferences="true"/>&#x0A;<refactoring comment="Delete resource &apos;p347-9&apos;" deleteContents="true" description="Delete resource &apos;p347-9&apos;" element1="/p347-9" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1463652616716"/>
+</session>

@@ -1,0 +1,15 @@
+14:22:59 **** Incremental Build of configuration Debug for project p115 ****
+make all 
+Building file: ../src/geo2json.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/geo2json.d" -MT"src/geo2json.d" -o "src/geo2json.o" "../src/geo2json.c"
+Finished building: ../src/geo2json.c
+ 
+Building target: p115.exe
+Invoking: Cygwin C Linker
+gcc  -o "p115.exe"  ./src/geo2json.o   
+Finished building target: p115.exe
+ 
+
+14:23:00 Build Finished (took 815ms)
+

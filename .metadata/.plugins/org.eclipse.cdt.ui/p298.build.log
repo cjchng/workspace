@@ -1,0 +1,15 @@
+18:24:01 **** Build of configuration Debug for project p298 ****
+make all 
+Building file: ../src/p298.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/p298.d" -MT"src/p298.d" -o "src/p298.o" "../src/p298.c"
+Finished building: ../src/p298.c
+ 
+Building target: p298.exe
+Invoking: Cygwin C Linker
+gcc  -o "p298.exe"  ./src/p298.o   
+Finished building target: p298.exe
+ 
+
+18:24:02 Build Finished (took 694ms)
+

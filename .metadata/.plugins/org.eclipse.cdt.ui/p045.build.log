@@ -1,0 +1,15 @@
+09:25:57 **** Incremental Build of configuration Debug for project p045 ****
+make all 
+Building file: ../src/p045.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/p045.d" -MT"src/p045.o" -o "src/p045.o" "../src/p045.c"
+Finished building: ../src/p045.c
+ 
+Building target: p045.exe
+Invoking: Cygwin C Linker
+gcc  -o "p045.exe"  ./src/p045.o   
+Finished building target: p045.exe
+ 
+
+09:25:58 Build Finished (took 907ms)
+

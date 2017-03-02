@@ -1,0 +1,16 @@
+01:06:59 **** Incremental Build of configuration Debug for project hfcal ****
+make all 
+Building file: ../src/hfcal.c
+Invoking: Cygwin C Compiler
+gcc -I../src/includes -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/hfcal.d" -MT"src/hfcal.d" -o "src/hfcal.o" "../src/hfcal.c"
+Finished building: ../src/hfcal.c
+ 
+Building target: libhfcal.a
+Invoking: GCC Archiver
+ar -r  "libhfcal.a"  ./src/hfcal.o   
+ar: creating libhfcal.a
+Finished building target: libhfcal.a
+ 
+
+01:06:59 Build Finished (took 489ms)
+

@@ -1,0 +1,15 @@
+22:28:59 **** Build of configuration Debug for project p1333 ****
+make all 
+Building file: ../src/p1333.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/p1333.d" -MT"src/p1333.d" -o "src/p1333.o" "../src/p1333.c"
+Finished building: ../src/p1333.c
+ 
+Building target: p1333.exe
+Invoking: Cygwin C Linker
+gcc  -o "p1333.exe"  ./src/p1333.o   
+Finished building target: p1333.exe
+ 
+
+22:29:00 Build Finished (took 763ms)
+

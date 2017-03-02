@@ -1,0 +1,23 @@
+18:24:07 **** Build of configuration Debug for project p400 ****
+make all 
+Building file: ../src/t.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/t.d" -MT"src/t.d" -o "src/t.o" "../src/t.c"
+../src/t.c: In function 'main':
+../src/t.c:3:1: warning: control reaches end of non-void function [-Wreturn-type]
+ {}
+ ^
+Finished building: ../src/t.c
+ 
+Building target: p400.exe
+Invoking: Cygwin C Linker
+gcc  -o "p400.exe"  ./src/p400.o ./src/t.o   
+./src/t.o: In function `main':
+/cygdrive/c/Users/Chuang-jan/OneDrive/02016-HF-C/workspace/p400/Debug/../src/t.c:3: multiple definition of `main'
+makefile:30: recipe for target 'p400.exe' failed
+./src/p400.o:/cygdrive/c/Users/Chuang-jan/OneDrive/02016-HF-C/workspace/p400/Debug/../src/p400.c:15: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [p400.exe] Error 1
+
+18:24:07 Build Finished (took 692ms)
+

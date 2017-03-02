@@ -1,0 +1,21 @@
+/*
+ ============================================================================
+ Name        : p043.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int y = 1;     //allocated at global section
+int main(void) {
+	int x = 4; //allocated at stack
+
+	printf("x is stored at %p\n", &x);
+	printf("y is stored at %p\n", &y);
+	return EXIT_SUCCESS;
+}

@@ -1,0 +1,9 @@
+16:31:00 **** Clean-only build of configuration Debug for project p062_1 ****
+make clean 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:\cygwin64\bin;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\cygwin64\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2016b\runtime\win64;C:\Program Files\MATLAB\R2016b\bin;C:\Program Files\MATLAB\R2015a\runtime\win64;C:\Program Files\MATLAB\R2015a\bin;C:\Program Files\MATLAB\R2012b\runtime\win64;C:\Program Files\MATLAB\R2012b\bin;C:\opencv\build\x86\mingw\bin;C:\TDM-GCC-64\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\MinGW\bin;C:\MinGW\mingw32\bin;;C:\Users\cjchng\eclipse\cpp-neon\eclipse]
+
+16:31:00 Build Finished (took 70ms)
+

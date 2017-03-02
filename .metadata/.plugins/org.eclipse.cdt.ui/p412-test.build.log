@@ -1,0 +1,15 @@
+18:44:02 **** Incremental Build of configuration Debug for project p412-test ****
+make all 
+Building file: ../src/p412-test.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/p412-test.d" -MT"src/p412-test.d" -o "src/p412-test.o" "../src/p412-test.c"
+Finished building: ../src/p412-test.c
+ 
+Building target: p412-test.exe
+Invoking: Cygwin C Linker
+gcc  -o "p412-test.exe"  ./src/p412-test.o   
+Finished building target: p412-test.exe
+ 
+
+18:44:03 Build Finished (took 646ms)
+

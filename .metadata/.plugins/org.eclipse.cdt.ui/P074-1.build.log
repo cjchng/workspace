@@ -1,0 +1,15 @@
+18:23:43 **** Build of configuration Debug for project P074-1 ****
+make all 
+Building file: ../src/P074-1.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/P074-1.d" -MT"src/P074-1.d" -o "src/P074-1.o" "../src/P074-1.c"
+../src/P074-1.c: In function 'main':
+../src/P074-1.c:15:7: error: array size missing in 'array'
+  char array[] ;
+       ^
+../src/P074-1.c:15:7: warning: unused variable 'array' [-Wunused-variable]
+make: *** [src/P074-1.o] Error 1
+src/subdir.mk:18: recipe for target 'src/P074-1.o' failed
+
+18:23:43 Build Finished (took 245ms)
+

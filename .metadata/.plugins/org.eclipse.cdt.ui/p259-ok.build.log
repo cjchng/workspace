@@ -1,0 +1,10 @@
+18:23:59 **** Build of configuration Debug for project p259-ok ****
+make all 
+Building target: p259-ok.exe
+Invoking: Cygwin C Linker
+gcc  -o "p259-ok.exe"  ./src/p259.o   
+Finished building target: p259-ok.exe
+ 
+
+18:23:59 Build Finished (took 508ms)
+

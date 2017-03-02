@@ -1,0 +1,14 @@
+18:24:09 **** Build of configuration Debug for project qBasic-10 ****
+make all 
+Building file: ../src/qBasic-10.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/qBasic-10.d" -MT"src/qBasic-10.d" -o "src/qBasic-10.o" "../src/qBasic-10.c"
+../src/qBasic-10.c: In function 'main':
+../src/qBasic-10.c:16:8: error: assignment to expression with array type
+    str = "Kanpur";
+        ^
+src/subdir.mk:18: recipe for target 'src/qBasic-10.o' failed
+make: *** [src/qBasic-10.o] Error 1
+
+18:24:10 Build Finished (took 293ms)
+

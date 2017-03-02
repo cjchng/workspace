@@ -1,0 +1,27 @@
+18:23:58 **** Build of configuration Debug for project p256-p259 ****
+make all 
+Building file: ../src/p256.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/p256.d" -MT"src/p256.d" -o "src/p256.o" "../src/p256.c"
+../src/p256.c: In function 'display':
+../src/p256.c:29:22: error: expected expression before '==' token
+   if (               == PINTS)
+                      ^
+../src/p256.c:30:63: error: expected identifier before ',' token
+     printf("%2.2f pints of %s\n", order.amount.               , order.name);
+                                                               ^
+../src/p256.c:34:53: error: expected identifier before ',' token
+      printf("%i %s\n", order.amount.                , order.name);
+                                                     ^
+../src/p256.c: In function 'main':
+../src/p256.c:39:73: error: expected identifier before '=' token
+    fruit_order strawberries = {"strawberries", "Spain", .amount.        =17.6, POUNDS};
+                                                                         ^
+../src/p256.c:39:80: error: expected '}' before 'POUNDS'
+    fruit_order strawberries = {"strawberries", "Spain", .amount.        =17.6, POUNDS};
+                                                                                ^
+src/subdir.mk:18: recipe for target 'src/p256.o' failed
+make: *** [src/p256.o] Error 1
+
+18:23:59 Build Finished (took 342ms)
+

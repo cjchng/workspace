@@ -1,0 +1,15 @@
+18:23:50 **** Build of configuration Debug for project p125 ****
+make all 
+Building file: ../src/topsecret.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/topsecret.d" -MT"src/topsecret.d" -o "src/topsecret.o" "../src/topsecret.c"
+Finished building: ../src/topsecret.c
+ 
+Building target: p125.exe
+Invoking: Cygwin C Linker
+gcc  -o "p125.exe"  ./src/topsecret.o   
+Finished building target: p125.exe
+ 
+
+18:23:51 Build Finished (took 704ms)
+

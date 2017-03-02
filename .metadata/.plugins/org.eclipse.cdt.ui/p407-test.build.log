@@ -1,0 +1,15 @@
+18:21:02 **** Incremental Build of configuration Debug for project p407-test ****
+make all 
+Building file: ../src/p407-test.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/p407-test.d" -MT"src/p407-test.d" -o "src/p407-test.o" "../src/p407-test.c"
+Finished building: ../src/p407-test.c
+ 
+Building target: p407-test.exe
+Invoking: Cygwin C Linker
+gcc  -o "p407-test.exe"  ./src/p407-test.o   
+Finished building target: p407-test.exe
+ 
+
+18:21:02 Build Finished (took 691ms)
+

@@ -1,0 +1,74 @@
+/*
+ ============================================================================
+ Name        : p284.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+struct island {
+	char *name;
+	char *opens;
+	char *closes ;
+	struct island *next ;
+};
+
+typedef struct island island ;
+
+island* create(char *name)
+{
+  island *i = malloc(sizeof(island));
+  i->name=name ;
+  //i->name = strdup(name);
+  //a completed copy of the string somewhere on the heap:
+  i->opens = "09:00";
+  i->closes = "17:00";
+  i->next = NULL;
+  return i;
+}
+void display(island *start)
+{
+	island *i = start ;
+	island *next = NULL;
+	for(; i!=NULL; i= next){
+		printf("Name:%s", i->name);
+		printf("Open: %s-%s\n", i->opens, i->closes);
+		next = i->next ;
+	}
+}
+
+void release(island *start)
+{
+  island *i = start;
+  island *next = NULL;
+  for (; i != NULL; i = next) {
+    next = i->next ;
+    free(i->name);
+    free(i);
+  }
+}
+
+int main(void) {
+	island *start = NULL;
+	island *i= NULL;
+	island *next= NULL ;
+	char name[80];
+	//char map[] = "taiwan.txt";
+
+	for(; fgets(name, 80, stdin); i=next)
+	{
+		next= create(name);
+		if(start == NULL) start = next ;
+		if(i != NULL)
+			i->next = next ;
+	}
+	display(start);
+	release(start);
+	return EXIT_SUCCESS;
+}

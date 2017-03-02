@@ -1,0 +1,11 @@
+00:22:30 **** Incremental Build of configuration Debug for project p366_hfcal ****
+make all 
+Building target: libp366_hfcal.a
+Invoking: GCC Archiver
+ar -r  "libp366_hfcal.a"  ./src/elliptical.o ./src/hfcal.o   
+ar: creating libp366_hfcal.a
+Finished building target: libp366_hfcal.a
+ 
+
+00:22:32 Build Finished (took 1s.129ms)
+

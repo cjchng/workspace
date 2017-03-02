@@ -1,0 +1,23 @@
+18:24:02 **** Build of configuration Debug for project p312 ****
+make all 
+Building file: ../src/p312.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/p312.d" -MT"src/p312.d" -o "src/p312.o" "../src/p312.c"
+../src/p312.c: In function 'main':
+../src/p312.c:52:4: warning: implicit declaration of function 'find1' [-Wimplicit-function-declaration]
+    find1() ;
+    ^
+Finished building: ../src/p312.c
+ 
+Building target: p312
+Invoking: MacOS X C Linker
+gcc  -o "p312"  ./src/p312.o   
+./src/p312.o: In function `main':
+/cygdrive/c/Users/Chuang-jan/OneDrive/02016-HF-C/workspace/p312/Debug/../src/p312.c:52: undefined reference to `find1'
+makefile:30: recipe for target 'p312' failed
+/cygdrive/c/Users/Chuang-jan/OneDrive/02016-HF-C/workspace/p312/Debug/../src/p312.c:52:(.text+0xcd): relocation truncated to fit: R_X86_64_PC32 against undefined symbol `find1'
+collect2: error: ld returned 1 exit status
+make: *** [p312] Error 1
+
+18:24:02 Build Finished (took 644ms)
+

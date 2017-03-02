@@ -1,0 +1,15 @@
+23:33:08 **** Incremental Build of configuration Debug for project p402-1 ****
+make all 
+Building file: ../src/p402-1.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/p402-1.d" -MT"src/p402-1.d" -o "src/p402-1.o" "../src/p402-1.c"
+Finished building: ../src/p402-1.c
+ 
+Building target: p402-1.exe
+Invoking: Cygwin C Linker
+gcc  -o "p402-1.exe"  ./src/p402-1.o   
+Finished building target: p402-1.exe
+ 
+
+23:33:10 Build Finished (took 1s.491ms)
+

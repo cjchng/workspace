@@ -1,0 +1,15 @@
+18:24:04 **** Build of configuration Debug for project p339-40 ****
+make all 
+Building file: ../src/p340.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/p340.d" -MT"src/p340.d" -o "src/p340.o" "../src/p340.c"
+Finished building: ../src/p340.c
+ 
+Building target: p339-40
+Invoking: MacOS X C Linker
+gcc  -o "p339-40"  ./src/p340.o   
+Finished building target: p339-40
+ 
+
+18:24:05 Build Finished (took 749ms)
+

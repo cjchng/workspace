@@ -1,0 +1,17 @@
+18:24:06 **** Build of configuration Debug for project p352 ****
+make all 
+Building file: ../src/encrypt.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/encrypt.d" -MT"src/encrypt.d" -o "src/encrypt.o" "../src/encrypt.c"
+../src/encrypt.c:13:6: error: conflicting types for 'encrypt'
+ void encrypt(char *message)
+      ^
+In file included from ../src/encrypt.c:11:0:
+../src/encrypt.h:11:6: note: previous declaration of 'encrypt' was here
+ void encrypt(int ) ;
+      ^
+src/subdir.mk:24: recipe for target 'src/encrypt.o' failed
+make: *** [src/encrypt.o] Error 1
+
+18:24:06 Build Finished (took 343ms)
+

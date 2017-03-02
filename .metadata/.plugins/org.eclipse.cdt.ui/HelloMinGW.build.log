@@ -1,0 +1,7 @@
+16:42:59 **** Incremental Build of configuration Debug for project HelloMinGW ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HelloMinGW.o" "..\\src\\HelloMinGW.c" 
+gcc -o HelloMinGW.exe "src\\HelloMinGW.o" 
+
+16:43:00 Build Finished (took 431ms)
+

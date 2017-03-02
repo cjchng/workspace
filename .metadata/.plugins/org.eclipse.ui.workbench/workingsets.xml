@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.cdt.ui.CElementWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1460787085489_1" label="ToChap3(p156)" name="ToChap3(p156)">
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/P066" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p133-bermuda" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p115-geo2json" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p065-1" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p065-3" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/P069-72" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p125" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p000" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p062" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p057" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p091-1" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/P074-2" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p142-p145" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p065-2" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p090" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p089" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p078" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p150-p153" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p139-p140" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/P074-1" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.cdt.ui.CElementWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1460787169398_2" label="chap4(p157)" name="chap4(p157)">
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p256-p259" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p242-3m" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p402" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p266" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p167-4" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p267-p284" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p259-ok" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p298" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p250" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p236" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p167-1" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p254" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p242-2" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p239-p241" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p165-p166--" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p407-test" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p242" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p167-2" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/pp-169--" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p366" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p407" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p399" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p274" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p263" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/p167-3" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.cdt.ui.CElementWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1461055328086_4" label="midTerm" name="midTerm">
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/q1-9" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/qBasic-12" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/qBasic-11" type="4"/>
+<item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/qBasic-10" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1453935622141_0" label="Window Working Set" name="Aggregate for window 1453935622141"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1460788022874_3" label="Multiple Working Sets" name="Aggregate:chap4(p157):ToChap3(p156):">
+<workingSet IMemento.internal.id="chap4(p157)"/>
+<workingSet IMemento.internal.id="ToChap3(p156)"/>
+</workingSet>
+<mruList name="chap4(p157)"/>
+<mruList name="midTerm"/>
+</workingSetManager>

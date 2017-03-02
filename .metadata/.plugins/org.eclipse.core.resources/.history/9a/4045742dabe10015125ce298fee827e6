@@ -1,0 +1,47 @@
+/*
+ ============================================================================
+ Name        : p091-1.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+char tracks[][80] = {
+  "I left my heart in Harvard Med School",
+  "Newark, Newark - a wonderful town",
+  "Dancing with a Dork",
+  "From here to maternity",
+  "The girl from Iwo Jima",
+};
+
+void find_track(char search_for[])
+{
+	  int i;
+	  for (i=0; i < 5; i++) {
+		  if(strstr(tracks[i], search_for))
+		  {
+			printf("Track %i: '%s'\n",i, tracks[i]);
+		  }
+	  }
+
+}
+char search_for[80]="town";
+int main(void) {
+
+	printf("Search for: ");
+	fflush(stdout) ;
+	fgets(search_for, 80, stdin);
+
+	//printf("strlen(search_for):%d\n",strlen(search_for) );   //sizeof
+	//return 0;
+
+	search_for[strlen(search_for)-1 ] = '\0';
+	printf("search_for:[%s]\n", search_for) ;
+	find_track(search_for);
+	return EXIT_SUCCESS;
+}

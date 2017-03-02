@@ -1,0 +1,15 @@
+18:23:47 **** Build of configuration Debug for project p065-2 ****
+make all 
+Building file: ../src/p065-2.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/p065-2.d" -MT"src/p065-2.d" -o "src/p065-2.o" "../src/p065-2.c"
+Finished building: ../src/p065-2.c
+ 
+Building target: p065-2.exe
+Invoking: Cygwin C Linker
+gcc  -o "p065-2.exe"  ./src/p065-2.o   
+Finished building target: p065-2.exe
+ 
+
+18:23:47 Build Finished (took 804ms)
+

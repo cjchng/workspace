@@ -1,0 +1,15 @@
+18:24:10 **** Build of configuration Debug for project systemCall ****
+make all 
+Building file: ../src/systemCall.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/systemCall.d" -MT"src/systemCall.d" -o "src/systemCall.o" "../src/systemCall.c"
+Finished building: ../src/systemCall.c
+ 
+Building target: systemCall.exe
+Invoking: Cygwin C Linker
+gcc  -o "systemCall.exe"  ./src/systemCall.o   
+Finished building target: systemCall.exe
+ 
+
+18:24:11 Build Finished (took 751ms)
+

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;p366_hfcal/src/hfcal&apos; to &apos;hfcal.h&apos;" description="Rename resource &apos;hfcal&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/hfcal" name="hfcal.h" stamp="1455001052985" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;p366_hfcal/src/p366_hfcal.c&apos; to &apos;hfcal.c&apos;" description="Rename resource &apos;p366_hfcal.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/p366_hfcal.c" name="hfcal.c" stamp="1455002569679" updateReferences="true"/>
+</session>

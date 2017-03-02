@@ -1,0 +1,45 @@
+/*
+ ============================================================================
+ Name        : p242.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+struct swag{
+	const char *description;
+	float value;
+};
+
+typedef struct {
+	const char *description;
+	float value;
+} swag;
+
+typedef struct {
+	swag *swag;
+	const char *sequence;
+} combination;
+
+typedef struct {
+	combination numbers;
+	const char *make;
+} safe;
+
+int main(void) {
+	swag gold = {"GOLD!", 1000000.0};
+	combination numbers = {&gold, "6502"};
+	safe s = {numbers, "RAMACON250"};
+
+	printf("%s\n", s.make) ;
+	printf("%s\n", s.numbers.sequence) ;
+	printf("%s\n", s.numbers.swag->description) ;
+	printf("Contents = %s\n", s.numbers.swag->description) ;
+
+	return EXIT_SUCCESS;
+}

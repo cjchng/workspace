@@ -1,0 +1,7 @@
+09:39:27 **** Clean-only build of configuration Debug for project p167-- ****
+make clean 
+rm -rf  ./src/p167--.o  ./src/p167--.d  p167--.exe
+ 
+
+09:39:27 Build Finished (took 345ms)
+

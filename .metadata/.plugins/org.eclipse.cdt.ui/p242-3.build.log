@@ -1,0 +1,15 @@
+18:11:30 **** Incremental Build of configuration Debug for project p242-3 ****
+make all 
+Building file: ../src/p242-3.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/p242-3.d" -MT"src/p242-3.d" -o "src/p242-3.o" "../src/p242-3.c"
+Finished building: ../src/p242-3.c
+ 
+Building target: p242-3.exe
+Invoking: Cygwin C Linker
+gcc  -o "p242-3.exe"  ./src/p242-3.o   
+Finished building target: p242-3.exe
+ 
+
+18:11:31 Build Finished (took 669ms)
+

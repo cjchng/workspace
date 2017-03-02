@@ -1,0 +1,6 @@
+15:36:35 **** Build of configuration Default for project p366_make ****
+make all 
+make: *** No rule to make target 'all'.  Stop.
+
+15:36:35 Build Finished (took 94ms)
+

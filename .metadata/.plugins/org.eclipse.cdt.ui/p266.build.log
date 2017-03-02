@@ -1,0 +1,14 @@
+18:23:59 **** Build of configuration Debug for project p266 ****
+make all 
+Building file: ../src/p266.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/p266.d" -MT"src/p266.d" -o "src/p266.o" "../src/p266.c"
+../src/p266.c: In function 'main':
+../src/p266.c:38:26: error: 't_s' has no member named 'shark_attack'
+  printf("s bundled: %x",s.shark_attack) ;
+                          ^
+src/subdir.mk:18: recipe for target 'src/p266.o' failed
+make: *** [src/p266.o] Error 1
+
+18:24:00 Build Finished (took 292ms)
+

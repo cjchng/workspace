@@ -1,0 +1,15 @@
+17:25:01 **** Incremental Build of configuration Debug for project p043 ****
+make all 
+Building file: ../src/p043.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/p043.d" -MT"src/p043.o" -o "src/p043.o" "../src/p043.c"
+Finished building: ../src/p043.c
+ 
+Building target: p043.exe
+Invoking: Cygwin C Linker
+gcc  -o "p043.exe"  ./src/p043.o   
+Finished building target: p043.exe
+ 
+
+17:25:02 Build Finished (took 1s.220ms)
+

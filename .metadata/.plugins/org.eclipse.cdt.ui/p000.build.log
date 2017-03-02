@@ -1,0 +1,15 @@
+18:23:44 **** Build of configuration Debug for project p000 ****
+make all 
+Building file: ../src/p000.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/p000.d" -MT"src/p000.d" -o "src/p000.o" "../src/p000.c"
+Finished building: ../src/p000.c
+ 
+Building target: p000.exe
+Invoking: Cygwin C Linker
+gcc  -o "p000.exe"  ./src/p000.o   
+Finished building target: p000.exe
+ 
+
+18:23:45 Build Finished (took 754ms)
+

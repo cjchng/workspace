@@ -1,0 +1,15 @@
+07:03:20 **** Incremental Build of configuration Debug for project p621 ****
+make all 
+Building file: ../src/p621.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/p621.d" -MT"src/p621.d" -o "src/p621.o" "../src/p621.c"
+Finished building: ../src/p621.c
+ 
+Building target: p621.exe
+Invoking: Cygwin C Linker
+gcc  -o "p621.exe"  ./src/p621.o   
+Finished building target: p621.exe
+ 
+
+07:03:21 Build Finished (took 653ms)
+

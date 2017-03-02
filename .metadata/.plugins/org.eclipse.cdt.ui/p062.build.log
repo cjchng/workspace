@@ -1,0 +1,28 @@
+17:01:44 **** Incremental Build of configuration Debug for project p062 ****
+make all 
+Building file: ../src/p062.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/p062.d" -MT"src/p062.o" -o "src/p062.o" "../src/p062.c"
+../src/p062.c: In function 'main':
+../src/p062.c:25:9: warning: format '%i' expects argument of type 'int', but argument 2 has type 'long unsigned int' [-Wformat=]
+  printf("4 sizeof(int) is %i", sizeof(int));;
+         ^
+../src/p062.c:25:9: warning: format '%i' expects argument of type 'int', but argument 2 has type 'long unsigned int' [-Wformat=]
+../src/p062.c:26:9: warning: format '%i' expects argument of type 'int', but argument 2 has type 'long unsigned int' [-Wformat=]
+  printf("5 sizeof(nums) is %i", sizeof(nums));;
+         ^
+../src/p062.c:26:9: warning: format '%i' expects argument of type 'int', but argument 2 has type 'long unsigned int' [-Wformat=]
+../src/p062.c:27:9: warning: format '%i' expects argument of type 'int', but argument 2 has type 'long unsigned int' [-Wformat=]
+  printf("6 sizeof(pt) is %i", sizeof(pt));;
+         ^
+../src/p062.c:27:9: warning: format '%i' expects argument of type 'int', but argument 2 has type 'long unsigned int' [-Wformat=]
+Finished building: ../src/p062.c
+ 
+Building target: p062.exe
+Invoking: Cygwin C Linker
+gcc  -o "p062.exe"  ./src/p062.o   
+Finished building target: p062.exe
+ 
+
+17:01:45 Build Finished (took 817ms)
+

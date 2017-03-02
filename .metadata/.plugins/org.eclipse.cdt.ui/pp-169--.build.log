@@ -1,0 +1,15 @@
+18:24:08 **** Build of configuration Debug for project pp-169-- ****
+make all 
+Building file: ../src/pp-169--.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/pp-169--.d" -MT"src/pp-169--.d" -o "src/pp-169--.o" "../src/pp-169--.c"
+Finished building: ../src/pp-169--.c
+ 
+Building target: pp-169--.exe
+Invoking: Cygwin C Linker
+gcc  -o "pp-169--.exe"  ./src/pp-169--.o   
+Finished building target: pp-169--.exe
+ 
+
+18:24:09 Build Finished (took 843ms)
+

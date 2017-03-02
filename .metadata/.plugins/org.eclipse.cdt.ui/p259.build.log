@@ -1,0 +1,15 @@
+07:32:52 **** Incremental Build of configuration Debug for project p259 ****
+make all 
+Building file: ../src/p259.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/p259.d" -MT"src/p259.d" -o "src/p259.o" "../src/p259.c"
+Finished building: ../src/p259.c
+ 
+Building target: p259.exe
+Invoking: Cygwin C Linker
+gcc  -o "p259.exe"  ./src/p259.o   
+Finished building target: p259.exe
+ 
+
+07:32:53 Build Finished (took 744ms)
+

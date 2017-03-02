@@ -1,0 +1,15 @@
+12:17:25 **** Incremental Build of configuration Debug for project p065 ****
+make all 
+Building file: ../src/p065.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/p065.d" -MT"src/p065.d" -o "src/p065.o" "../src/p065.c"
+Finished building: ../src/p065.c
+ 
+Building target: p065.exe
+Invoking: Cygwin C Linker
+gcc  -o "p065.exe"  ./src/p065.o   
+Finished building target: p065.exe
+ 
+
+12:17:25 Build Finished (took 668ms)
+

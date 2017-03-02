@@ -1,0 +1,15 @@
+11:50:34 **** Incremental Build of configuration Debug for project p62 ****
+make all 
+Building file: ../src/p62.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/p62.d" -MT"src/p62.d" -o "src/p62.o" "../src/p62.c"
+Finished building: ../src/p62.c
+ 
+Building target: p62.exe
+Invoking: Cygwin C Linker
+gcc  -o "p62.exe"  ./src/p62.o   
+Finished building target: p62.exe
+ 
+
+11:50:35 Build Finished (took 902ms)
+

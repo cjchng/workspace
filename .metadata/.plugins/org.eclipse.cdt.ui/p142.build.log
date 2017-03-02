@@ -1,0 +1,15 @@
+23:19:23 **** Build of configuration Debug for project p142 ****
+make all 
+Building file: ../src/p142.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/p142.d" -MT"src/p142.d" -o "src/p142.o" "../src/p142.c"
+Finished building: ../src/p142.c
+ 
+Building target: p142.exe
+Invoking: Cygwin C Linker
+gcc  -o "p142.exe"  ./src/p142.o   
+Finished building target: p142.exe
+ 
+
+23:19:24 Build Finished (took 707ms)
+
