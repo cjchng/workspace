@@ -11,14 +11,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
+//git testing 03082017
 int main(int argc, char *argv[])
 {
 	char line[80];
 
 	if (argc != 6) {
 		fprintf(stderr, "You need to give 5 arguments\n");
-		return 1;
+		return -1;
 	}
 
 	FILE *in = fopen("spooky.csv", "r");

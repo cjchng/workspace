@@ -1,1 +1,1 @@
-src/p000.d: ../src/p000.c
+src/p000.o: ../src/p000.c
